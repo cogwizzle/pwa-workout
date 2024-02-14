@@ -1,15 +1,27 @@
 {
-  "name": "pwa-workout",
-  "version": "1.0.0",
-  "description": "A progressive web application for doing time based workouts.",
-  "main": "dev/src/index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": ["PWA", "Workout", "Time", "Exercise", "Fitness", "Health", "Progressive Web Application"],
-  "author": "Cogwizzle",
-  "license": "MIT"
+    "name": "pwa-workout",
+    "version": "1.0.0",
+    "description": "A progressive web application for doing time based workouts.",
+    "main": "dev/src/index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "start": "./scripts/dev",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "PWA",
+        "Workout",
+        "Time",
+        "Exercise",
+        "Fitness",
+        "Health",
+        "Progressive Web Application"
+    ],
+    "author": "Cogwizzle",
+    "license": "MIT",
+    "devDependencies": {
+        "esbuild": "0.20.0"
+    }
 }
