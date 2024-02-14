@@ -23,5 +23,8 @@
     "license": "MIT",
     "devDependencies": {
         "esbuild": "0.20.0"
+    },
+    "dependencies": {
+        "@picocss/pico": "^2.0.0"
     }
 }
