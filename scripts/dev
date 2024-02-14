@@ -3,5 +3,7 @@
 echo "Starting Development Server"
 node_modules/.bin/esbuild \
     src/index.js \
-    --outfile=dev/index.js \
+    --bundle \
+    --sourcemap \
+    --outdir=dev \
     --servedir=dev
