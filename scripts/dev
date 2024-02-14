@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Starting Development Server"
+node_modules/.bin/esbuild \
+    src/index.js \
+    --outfile=dev/index.js \
+    --servedir=dev

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Starting Production Build"
+node_modules/.bin/esbuild \
+    src/index.js \
+    --outfile=docs/index.js \
+    --source-map \
+    --minify \
+    --bundle
+
+echo "Copying index.html to docs"
+cp src/index.html docs/index.html
